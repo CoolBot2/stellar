@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUALIA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stole.css">
+  <link rel="icon" href="https://img.icons8.com/material-outlined/24/fa314a/shopping-cart--v1.png">
+  <link rel="stylesheet" href="heartstyle.css">
+  <link rel="stylesheet" href="heartstyle1.css">
+  <link rel="stylesheet" href="heartstyle2.css">
+  <link rel="stylesheet" href="heartstyle3.css">
+  <link rel="stylesheet" href="heartstyle4.css">
+  <link rel="stylesheet" href="heartstyle5.css">
+  <link rel="stylesheet" href="heartstyle6.css">
+  <link rel="stylesheet" href="heartstyle7.css">
+  <link rel="stylesheet" href="heartstyle8.css">
+  <link rel="stylesheet" href="heartstyle9.css">
+  <link rel="stylesheet" href="heartstyle10.css">
+  <link rel="stylesheet" href="heartstyle11.css">
+  <link rel="stylesheet" href="heartstyle12.css">
+  <link rel="stylesheet" href="heartstyle13.css">
+  <link rel="stylesheet" href="heartstyle14.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+  <!--no more h1-->
+  <header>
+    <section >
+      <div style="font-family: 'Luckiest Guy', cursive; color: palevioletred; font-size: 35px;">
+        QUALIA
+      </div>
+    <div class="navbar">
+      <nav >
+        <a href="">deliver to <br> <strong>Tunisia</strong></a>
+      </nav>
+    </div>
+        <div>
+      <form >
+        <select style="margin: 0; padding: 0;">
+          <option value=""></option>
+        </select>
+        <input type="text" size="50px"> <img src="https://image.flaticon.com/icons/png/128/49/49116.png" width="20px" style="cursor: pointer; background: peru; padding: 5px;  "  alt="">
+      </form>
+
+    </div>
+    <div id="moneyss">
+      <h4 style="margin: auto; color: #fff;" >wallet: </h4>
+      <h4 id="wallet" style="margin: auto; color: white; margin-left: 8px;">0</h4>
+      <h4 style="margin: auto; color: #fff; margin-left: 3px;" >$</h4>
+    </div>
+
+    <div class="cart">
+       <a href="#cart"><img src="https://image.flaticon.com/icons/png/512/1446/1446989.png" width="40px" alt=""> </a>
+    <p id="gauge" style="margin-top: -20px; margin-left: 40px; border-radius: 30px; border: medium solid black; background: white; color: black; width: 10px; text-align: center;"> </p>
+  
+  </div>
+
+    </section>
+  </header>
+  <main>
+    <section class="container1">
+      <div class="good">
+        <img src="https://neal.fun/spend/images/big-mac.jpg" class="pics" alt="">
+        
+        <div class="heart-btn">
+          <div class="content">
+            <span class="heart"></span>
+            <span class="text">like</span>
+            <span class="numb"></span>
+          </div>
+        </div>
+        
+        <div class="tradebar">
+          
+          <button onclick="buy(), bigMAc()"  class="buy"  ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">2$</p>
+          <button onclick="sell(), bigMAcs()" class="sell" id="sell"  ><h1 ><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Big Mac</strong> </h3>
+  
+
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/flip-flops.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn1">
+          <div class="content1">
+            <span class="heart1"></span>
+            <span class="text1">like</span>
+            <span class="numb1"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), flipFlops()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">3$</p>
+          <button class="sell" onclick="sell(), flipFlopss()" ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name"  ><strong>Flip Flops</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/coca-cola-pack.jpg" class="pics" style="height: 265px;" alt="">
+              <div class="heart-btn2">
+          <div class="content2">
+            <span class="heart2"></span>
+            <span class="text2">like</span>
+            <span class="numb2"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), cocaCola()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">5$</p>
+          <button class="sell" onclick="sell(), cocaColas()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Coca Cola Pack</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/movie-ticket.jpg" class="pics" style="height: 265px;" alt="">
+              <div class="heart-btn3">
+          <div class="content3">
+            <span class="heart3"></span>
+            <span class="text3">like</span>
+            <span class="numb3"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), movieTicket()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">12$</p>
+          <button class="sell" onclick="sell(), movieTickets()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Movie Tickets</strong> </h3>
+      </div>
+      <div class="good"> 
+       
+        <img src="https://neal.fun/spend/images/book.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn4">
+          <div class="content4">
+            <span class="heart4"></span>
+            <span class="text4">like</span>
+            <span class="numb4"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), book()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">15$</p>
+          <button class="sell" onclick="sell(), books()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Book</strong> </h3>
+      </div>
+      <div class="good">
+       
+        <img src="https://neal.fun/spend/images/lobster-dinner.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn5">
+          <div class="content5">
+            <span class="heart5"></span>
+            <span class="text5">like</span>
+            <span class="numb5"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), lobster()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">45$</p>
+          <button class="sell" onclick="sell(), lobsters()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Lobster Dinner</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/video-game.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn6">
+          <div class="content6">
+            <span class="heart6"></span>
+            <span class="text6">like</span>
+            <span class="numb6"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), videoGame()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">60$</p>
+          <button class="sell" onclick="sell(), videoGames()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Video Game</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/amazon-echo.jpg" class="pics" style="height: 265px;" alt="">
+              <div class="heart-btn7">
+          <div class="content7">
+            <span class="heart7"></span>
+            <span class="text7">like</span>
+            <span class="numb7"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), amazon()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">99$</p>
+          <button class="sell"   onclick="sell(), amazons() "><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Amazon Echo</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/year-of-netflix.jpg"  class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn8">
+          <div class="content8">
+            <span class="heart8"></span>
+            <span class="text8">like</span>
+            <span class="numb8"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), netflix()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">100$</p>
+          <button class="sell" onclick="sell(), netflix()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>A Year Of Netflix </strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/air-jordans.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn9">
+          <div class="content9">
+            <span class="heart9"></span>
+            <span class="text9">like</span>
+            <span class="numb9"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), airJordan() " class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">125$</p>
+          <button class="sell" onclick="sell(), airJordan()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Air Jordan</strong> </h3>
+      </div>
+      <div class="good">
+        
+        <img src="https://neal.fun/spend/images/airpods.jpg" class="pics" style="height: 265px; "  alt="">
+               <div class="heart-btn10">
+          <div class="content10">
+            <span class="heart10"></span>
+            <span class="text10">like</span>
+            <span class="numb10"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), airpods()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">199$</p>
+          <button class="sell"  onclick="sell(), airpodss()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Airpods</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/gaming-console.jpg" class="pics" style="height: 265px;" alt="">
+               <div class="heart-btn11">
+          <div class="content11">
+            <span class="heart11"></span>
+            <span class="text11">like</span>
+            <span class="numb11"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), Gconsole() " class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">299$</p>
+          <button class="sell" onclick="sell(), Gconsoles()"   ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Gaming Console</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/drone.jpg" class="pics" style="height: 265px;" alt="">
+              <div class="heart-btn12">
+          <div class="content12">
+            <span class="heart12"></span>
+            <span class="text12">like</span>
+            <span class="numb12"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), Drone()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">350$</p>
+          <button class="sell" onclick="sell(), Drones()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Drone</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/smartphone.jpg" class="pics" style="height: 265px;" alt="">
+              <div class="heart-btn13">
+          <div class="content13">
+            <span class="heart13"></span>
+            <span class="text13">like</span>
+            <span class="numb13"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), smartp()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">699$</p>
+          <button class="sell" onclick="sell(), smartps()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Smart Phone</strong> </h3>
+      </div>
+      <div class="good">
+        <img src="https://neal.fun/spend/images/bike.jpg" class="pics" style="height: 265px; " alt="">
+              <div class="heart-btn14">
+          <div class="content14">
+            <span class="heart14"></span>
+            <span class="text14">like</span>
+            <span class="numb14"></span>
+          </div>
+        </div>
+        <div class="tradebar">
+          
+          <button onclick="buy(), bike()" class="buy" ><h1 style="color: #fff;" ><strong>+</strong></h1></button>
+          <p class="money">800$</p>
+          <button class="sell" onclick="sell(), bikes()"  ><h1><strong>-</strong></h1></button>
+        </div>
+        <h3 class="item-name" ><strong>Bike</strong> </h3>
+      </div>
+      
+    </section>
+
+    <section class="counter">
+      <a name="cart"></a> 
+       <h1 class="receipt">your receipt</h1>
+      <h3 id="stuff" >stuff</h3>
+      <div class="total">
+      <h2 style="margin: auto; " >total </h2>
+      <h2 style="margin: auto; " id="totalsum"></h2> <h2 style="margin: auto; margin-left: -80px;"> $</h2>
+      </div>
+
+      
+    </section>
+  </main>
+  <script src="total.js"></script>
+  <script src="counter.js"></script>
+  <script src="selling.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".content").click(function(){
+        $(".content").toggleClass("heart-active")
+        $(".like").toggleClass("heart-active")
+        $(".heart").toggleClass("heart-active")
+        
+      });
+    });
+  </script>
+    <script>
+      $(document).ready(function(){
+        $(".content1").click(function(){
+          $(".content1").toggleClass("heart-active")
+          $(".like1").toggleClass("heart-active")
+          $(".heart1").toggleClass("heart-active")
+          
+        });
+      });
+    </script>
+        <script>
+          $(document).ready(function(){
+            $(".content2").click(function(){
+              $(".content2").toggleClass("heart-active")
+              $(".like2").toggleClass("heart-active")
+              $(".heart2").toggleClass("heart-active")
+              
+            });
+          });
+        </script>
+   <script>
+    $(document).ready(function(){
+      $(".content3").click(function(){
+        $(".content3").toggleClass("heart-active")
+        $(".like3").toggleClass("heart-active")
+        $(".heart3").toggleClass("heart-active")
+        
+      });
+    });
+  </script>
+ <script>
+  $(document).ready(function(){
+    $(".content4").click(function(){
+      $(".content4").toggleClass("heart-active")
+      $(".like4").toggleClass("heart-active")
+      $(".heart4").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content5").click(function(){
+      $(".content5").toggleClass("heart-active")
+      $(".like5").toggleClass("heart-active")
+      $(".heart5").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content6").click(function(){
+      $(".content6").toggleClass("heart-active")
+      $(".like6").toggleClass("heart-active")
+      $(".heart6").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content7").click(function(){
+      $(".content7").toggleClass("heart-active")
+      $(".like7").toggleClass("heart-active")
+      $(".heart7").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content8").click(function(){
+      $(".content8").toggleClass("heart-active")
+      $(".like8").toggleClass("heart-active")
+      $(".heart8").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content9").click(function(){
+      $(".content9").toggleClass("heart-active")
+      $(".like9").toggleClass("heart-active")
+      $(".heart9").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content10").click(function(){
+      $(".content10").toggleClass("heart-active")
+      $(".like10").toggleClass("heart-active")
+      $(".heart10").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content11").click(function(){
+      $(".content11").toggleClass("heart-active")
+      $(".like11").toggleClass("heart-active")
+      $(".heart11").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content12").click(function(){
+      $(".content12").toggleClass("heart-active")
+      $(".like12").toggleClass("heart-active")
+      $(".heart12").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content13").click(function(){
+      $(".content13").toggleClass("heart-active")
+      $(".like13").toggleClass("heart-active")
+      $(".heart13").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $(".content14").click(function(){
+      $(".content14").toggleClass("heart-active")
+      $(".like14").toggleClass("heart-active")
+      $(".heart14").toggleClass("heart-active")
+      
+    });
+  });
+</script>
+
+
+
+  <footer>
+  </footer>
+
+</body>
+</html>

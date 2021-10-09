@@ -1,0 +1,13 @@
+a{
+  text-decoration: none;
+}
+body{
+  background-image: url(https://images.wallpaperscraft.com/image/star_background_light_69659_1280x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+table{
+  border: 5px solid #000;
+  padding: 0;
+}

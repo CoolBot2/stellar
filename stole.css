@@ -1,0 +1,149 @@
+body{
+  background: #f1f2f6;
+  margin: 0;
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+nav a{
+  color: #ccc;
+  text-decoration: none;
+}
+header{
+  background: #0F1111;
+  font: 12px Arial, sans-serif;
+  border-radius: 5px;
+  position: fixed;
+  width: 90%;
+  margin-left: 50px;
+  z-index: 56465;
+}
+header section{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+header section div{
+  margin: auto;
+}
+header div form{
+  display: flex;
+}
+.container1{
+  display: grid;
+  
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 50px;
+  row-gap: 0px;
+  column-gap: 10px;
+/* display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center; */
+}
+main section div img{
+  width: 300px;
+  
+}
+.buy{
+  padding-top: 4px;
+  background-color: #2ecc71;
+    background: linear-gradient(
+180deg
+,#2ecc71,#1abc9c);
+width: 100px;
+height: 40px;
+border: transparent;
+cursor: pointer;
+border-radius: 5px;
+}
+.sell{
+  width: 100px;
+height: 40px;
+ border-radius: 8px;
+ border: transparent;
+ background: #f1f2f6 ;
+
+}
+.money{
+  color: #24c486;
+}
+.tradebar{
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 23px;
+
+  
+}
+#moneyss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+
+}
+.buy, .money, .sell{
+  margin: auto;
+}
+.good{
+  
+  margin-top: 80px;
+  height: 400px;
+  background: #fff;
+
+  
+}
+main section div img{
+  margin-left: 50px;
+}
+.heart{
+  width: 40px;
+}
+.heart:hover{
+  color: red;
+}
+.item-name{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+h1{
+ margin-top: 5px;
+ /* no more h1 */
+}
+.counter{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.receipt{
+  font-size: 35px;
+  padding: 15px 15px 25px;
+  font-weight: 700;
+}
+.total{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: thin solid #0F1111;
+  padding-top:16px ;
+  width: 500px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: rgb(21, 12, 12);
+  
+}
+#stuff{
+  display: flex;
+  flex-wrap: wrap;
+    text-transform:capitalize ;
+}

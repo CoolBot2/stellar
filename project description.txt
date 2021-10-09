@@ -1,0 +1,31 @@
+					insert title
+if you want to learn more about stars, we have you covered. from the eerie origin of these 
+glorious stellar bodies to their demise and beyond. in this website you will find all infos 
+
+this website will include:
+- a sliding portfolio for the most renowned stars ranging by their size, age, brightness (images will be in the backgroung
+and a button for more facts will be added in the bottom of each slide(see animation), the name will be placed on top, and a general fact would
+be placed in the middle)
+- in-depth infos about our particular sun
+
+- a react button will be applied inside each card
+
+- what are black holes
+- a portfolio for black holes
+- various facts about stars and black holes in general (will be displayed on sliding cards as in the hubble website)
+-the end of the universe and the black hole era (animated simualtion of thee big crunch )
+-an astronomical guide for space-lovers and a shop for astronomy gears
+- more will be added
+
+interractive features:
+-a menu 
+-two sliding portfolios for stars and black holes 
+-a search bar
+-react buttons
+-animated on-hover simualtions
+-another sliding menu for quick facts 
+
+animations:
+-the cards shift background color when hovered on
+-the "explore more facts" button appears when hovered on
+-the slide buttons appear when hovered on
